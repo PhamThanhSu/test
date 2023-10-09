@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAS Store</title>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        header{
+            height: 120px;
+            text-align: center;
+            line-height: 120px;
+            border: 2px solid black;
+            background-color: aqua;
+
+        }
+        .TM{
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            border: 2px solid blueviolet;
+            box-sizing: border-box;
+        }
+        .Left{
+            text-align: center;
+            line-height: 30px;
+            border: 2px solid blueviolet;
+            box-sizing: border-box;
+        }
+        .Right{
+            text-align: center;
+            line-height: 30px;
+            border: 2px solid blueviolet;
+            box-sizing: border-box;
+        }
+        .Content{
+            text-align: center;
+            line-height: 30px;
+            border: 2px solid blueviolet;
+            box-sizing: border-box;
+        }
+        .MenuC{
+            background-color: whitesmoke;
+            font-size: 13px;
+            display: flex;
+            padding: 2px 38px;
+            position: relative;
+            transition: background-color 0.3s;
+            position: relative;
+        }
+        .fa{
+            position: absolute;
+            font-size: 18px; 
+            top: 8.5px;
+            left: 8.5px; 
+            
+        }
+        .MenuC:hover {
+            background-color: #ff0000; /* Màu nền khi chỉ trỏ vào */
+        }
+    .megamenu-ic-right {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 4px;
+    margin: auto;
+    width: 8px;
+    height: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    </style>
+</head>
+<body>
+    <div style="width: 100%; border: 2px solid grey;">
+        <header>
+            <div>HEADER</div>
+        </header>
+        <div class="TM">TM</div>
+        <div>
+            <div class="Left" style="width: 15%; float: left">L</div>
+            <div class="Right" style="width: 70%; float: left;">
+                <div style="width: 20%; background-color: whitesmoke;">
+                    <div>
+                        <div class="MenuC">Laptop
+                            <i class="fa fa-laptop" aria-hidden="true"></i>
+                            <span class="megamenu-ic-right">
+                                <svg viewBox="0 0 6 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.5 1.5L4.5 4L1.5 6.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </span>
+                        </div> 
+                        <div class="MenuC">PC Gaming
+                            <i class="fa fa-desktop" aria-hidden="true"></i>
+                            <span class="megamenu-ic-right">
+                                <svg viewBox="0 0 6 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.5 1.5L4.5 4L1.5 6.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="MenuC">Màng hình
+                            <i class="fa fa-television" aria-hidden="true"></i>
+                            <span class="megamenu-ic-right">
+                                <svg viewBox="0 0 6 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.5 1.5L4.5 4L1.5 6.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="MenuC">Chuột
+                            <i class="fa fa-apple" aria-hidden="true"></i>
+                            <span class="megamenu-ic-right">
+                                <svg viewBox="0 0 6 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.5 1.5L4.5 4L1.5 6.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="MenuC">Bàn phím
+                            <span class="megamenu-ic-right">
+                                <svg viewBox="0 0 6 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.5 1.5L4.5 4L1.5 6.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Content" style="width: 15%; float: left;">R</div>
+        </div>
+        <div style="clear: both; height: 120px; background-color: beige;">FOOTER</div>
+    </div>
+
+</body>
+</html>
